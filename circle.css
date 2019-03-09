@@ -1,0 +1,25 @@
+.circle {
+  background: url(https://d13yacurqjgara.cloudfront.net/users/212457/screenshots/2212523/yo.jpg) #000;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  transition: all .3s ease-in-out;
+}
+
+.circle:hover {
+  border-radius:0;  
+  cursor: pointer;
+}
+
+.text {
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+  padding-top: 0px;
+  transition: all .3s ease-in-out;
+}
+
+.circle:hover .text {
+  padding-top: 40px;
+  opacity: 1;
+}
